@@ -1,0 +1,9 @@
+services:
+  apidesigner:
+    image: 9109679196/api-designer:1.0
+    container_name: apidesigner
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    tty: true
+    stdin_open: true

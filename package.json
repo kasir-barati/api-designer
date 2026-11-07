@@ -1,0 +1,15 @@
+{
+  "name": "api-designer-release",
+  "private": true,
+  "description": "Release tooling only; publishes the api-designer Docker image",
+  "license": "MIT",
+  "author": "Kasir Barati",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "^7.1.0",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "semantic-release": "^25.0.2"
+  }
+}
